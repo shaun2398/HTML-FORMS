@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+    background-image: url('https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#Container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    font-size: 3rem;
+    color: #212121;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#description {
+    font-size: 1.5rem;
+    color: #212121
+}
+
+#survey-form{
+    background-color: #212121;
+    width: 30%;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    margin: 5em;
+    border-radius: 12px;
+    opacity: 90%;
+}
+
+#survey-form input {
+    padding: 1em;
+    margin: 1em 0em ;
+}
+
+#survey-form select {
+    padding: 1em;
+    margin: 1em 0em ;
+}
+
+#survey-form button {
+    margin-top: 2em;
+    padding: 1.5em;
+}
+#survey-form textarea {
+    height: 5em;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+}
+

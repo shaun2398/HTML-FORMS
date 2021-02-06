@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survery Form</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="Container">
+            <h1 id="title">Lorem ipsum dolor sit</h1> 
+            <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, temporibus.</p>
+            <form id="survey-form">
+                <label id="name-label" id="bold">Name</label>
+                    <input 
+                        id="name" 
+                        type="text"
+                        placeholder="Enter Name" 
+                        required/>
+                <label id="email-label" id="bold">Email</label>
+                    <input 
+                        id="email" 
+                        type="email" 
+                        placeholder="Enter Email" 
+                        required/>
+                <label id="number-label" id="bold">Age</label>
+                    <input 
+                        id="number" 
+                        type="number" 
+                        min="10" 
+                        max="99"
+                        placeholder="Age" 
+                        required/>
+                <label for="drop-down" id="bold">Which option best describes your current role?</label>
+                    <select id="dropdown">
+                        <option>lorem</option>
+                        <option>ipsum</option>
+                        <option>dolor</option>
+                    </select>
+                <!-- radio -->
+                Lorem ipsum dolor sit amet consectetur adipisicing?
+                <label for="ipsum">
+                    <input 
+                        type="radio" 
+                        name="ipsum"
+                        value="Ipsum"
+                    />
+                    Ipsum
+                </label>
+                <label for="ipsum">
+                    <input 
+                        type="radio" 
+                        name="ipsum"
+                        value="dolor"
+                    />
+                    dolor
+                </label>
+                <label for="ipsum">
+                    <input 
+                        type="radio" 
+                        name="ipsum"
+                        value="lorem"
+                    />
+                    lorem
+                </label>
+                <!-- checkboxes -->
+                Lorem ipsum dolor sit amet consectetur adipisicing elit?
+                <label for="lorem">
+                    <input 
+                        type="checkbox" 
+                        name="checkbox"
+                        value="Lorem" />
+                    Lorem
+                </label>
+                <label for="ipsum">
+                    <input 
+                        type="checkbox" 
+                        name="checkbox"
+                        value="Ipsum" />
+                    Ipsum
+                </label>
+                <label for="dolor">
+                    <input 
+                        type="checkbox" 
+                        name="checkbox"
+                        value="Dolor" />
+                    Dolor
+                </label>
+                <label for="comment-box">Any Suggestions?</label>
+                <textarea></textarea>
+                <button id="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
