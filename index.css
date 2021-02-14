@@ -59,8 +59,8 @@ body {
 }
 #survey-form textarea {
     height: auto;
-    max-width: 90%;
-    min-width: 90%;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 label {
